@@ -1,0 +1,70 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: swissprot
+           466,914 sequences; 175,697,176 total letters
+
+
+
+Query= NM_003466 Homo sapiens paired box 8 (PAX8), transcript variant
+PAX8A, mRNA.
+
+Length=1354
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Q5NR31.1 RecName: Full=LexA repressor                               33.5    9.2  
+
+
+> Q5NR31.1 RecName: Full=LexA repressor
+Length=217
+
+ Score = 33.5 bits (75),  Expect = 9.2, Method: Composition-based stats.
+ Identities = 32/120 (27%), Positives = 48/120 (40%), Gaps = 9/120 (8%)
+
+Query  1216  GHLGLGAPYHSRPDAASLVVPAKDLADAAMADAELARDVAGPYTLVGQVYDALADHFRQR  1275
+             G +  G P  +    + L VP   L       A  A +VAG   +   ++D      RQ 
+Sbjct  100   GRIAAGLPIEALEGQSHLAVPPSYLGSG----AHYALEVAGDSMVDAGIFDGDYIIVRQT  155
+
+Query  1276  SAIHKGPSQLVQPSMARSDGVVR--HRRG-VARSPPRARGFLP*VRAAPAAALAGRLQAL  1332
+                H+G  ++V   +  SD  ++  HR G + R  P  R + P    A    + GRL  L
+Sbjct  156   DEAHEG--EIVVALIDNSDATLKYFHREGRMVRLDPANRAYAPMRYDASRIGIQGRLVGL  213
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.144    0.489    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 141444955750
+
+
+  Database: swissprot
+    Posted date:  Jun 5, 2017  10:57 PM
+  Number of letters in database: 175,697,176
+  Number of sequences in database:  466,914
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
